@@ -1,7 +1,11 @@
 {
+  "name": "facebook-marketplace-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
   "dependencies": {
-    "unofficial-fb-chat-api": "^1.5.1",
+    "axios": "^1.7.2",
     "express": "^4.18.2",
-    "axios": "^1.7.2"
+    "facebook-chat-api": "git+https://github.com/xaviabot/facebook-chat-api.git"
   }
 }
